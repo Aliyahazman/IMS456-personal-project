@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Friends</title>
+</head>
+<body>
+<style>
+body {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/337/40/913/paper-creased-light-texture-wallpaper-preview.jpg');
+}
+</style>
+<body>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Verdana, Candara, sans-serif;
+  margin: 0;
+}
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+</style>
+</head>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="education.html">Education</a>
+  <a href="Dreams.html">Dreams</a>
+  <a href="Family.html">Family</a>
+  <a href="Friends.html" class="active">Friends</a>
+  <a href="Hobby.html">Hobby</a>
+</div>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>My Lovely Cats</h1>
+<hr>
+
+<h2>Trust me, cats could be your bestest friends.</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('Hero')"> Hero</button>
+  <button class="btn" onclick="filterSelection('Poka')"> Poka</button>
+  <button class="btn" onclick="filterSelection('Mochi')"> Mochi</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column Hero">
+    <div class="content">
+      <img src="C:\Users\User\Desktop\My Personal Website 2021\image\dadi1.jpg" alt="dadi1" style="width:100%">
+      <h4>Daddy to Poka & Mochi</h4>
+      <p>Clingy.</p>
+    </div>
+  </div>
+  <div class="column Hero">
+    <div class="content">
+    <img src="C:\Users\User\Desktop\My Personal Website 2021\image\dadi2.jpg" alt="dadi2" style="width:100%">
+      <h4>Sooo cute</h4>
+      <p>Love to eat.</p>
+    </div>
+  </div>
+  <div class="column Hero">
+    <div class="content">
+    <img src="C:\Users\User\Desktop\My Personal Website 2021\image\dadi3.jpg" alt="dadi3" style="width:100%">
+      <h4>Cutie!</h4>
+      <p>Love to sleep too.</p>
+    </div>
+  </div>
+  
+  <div class="column Poka">
+    <div class="content">
+      <img src="C:\Users\User\Desktop\My Personal Website 2021\image\poka1.jpg" alt="poka1" style="width:100%">
+      <h4>Poka</h4>
+      <p>Just like his dad, Hero.</p>
+    </div>
+  </div>
+  <div class="column Mochi">
+    <div class="content">
+    <img src="C:\Users\User\Desktop\My Personal Website 2021\image\mochi1.jpg" alt="mochi1" style="width:100%">
+      <h4>Mochi & Poka</h4>
+      <p>Best friends forever!</p>
+    </div>
+  </div>
+  <div class="column Mochi">
+    <div class="content">
+    <img src="C:\Users\User\Desktop\My Personal Website 2021\image\mochi2.jpg" alt="mochi2" style="width:100%">
+      <h4>Cuteness overload</h4>
+      <p>Cats are the best.</p>
+    </div>
+  </div>
+
+  <div class="column Poka">
+    <div class="content">
+      <img src="C:\Users\User\Desktop\My Personal Website 2021\image\poka2.jpg" alt="poka2" style="width:100%">
+      <h4>Girl</h4>
+      <p>Can't stop admire Poka.</p>
+    </div>
+  </div>
+  <div class="column Mochi">
+    <div class="content">
+    <img src="C:\Users\User\Desktop\My Personal Website 2021\image\mochi3.jpg" alt="mochi3" style="width:100%">
+      <h4>Baby boy</h4>
+      <p>My favourite too.</p>
+    </div>
+  </div>
+  <div class="column Poka">
+    <div class="content">
+    <img src="C:\Users\User\Desktop\My Personal Website 2021\image\poka3.jpg" alt="poka3" style="width:100%">
+      <h4>My favourite</h4>
+      <p>Always. And forever.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
